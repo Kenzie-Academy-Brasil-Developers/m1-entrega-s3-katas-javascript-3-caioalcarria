@@ -115,6 +115,7 @@ function kata11() {
 
 function kata12() {
     // implemente o código do kata 12 aqui
+    result=[]
     for(i=0; i<sampleArray.length;i++){
         if(sampleArray[i]%2!=0)
         result.push(sampleArray[i])
